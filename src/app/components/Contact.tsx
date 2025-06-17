@@ -34,7 +34,7 @@ const Contact=()=>{
     {[
       { icon: <Phone size={24} className="text-blue-400" />, text: "+261 34 84 415 92" },
       { icon: <Mail size={24} className="text-blue-400" />, text: "natharandrianjafy@gmail.com" },
-      { icon: <Github size={24} className="text-blue-400" />, text: "Nathanaël0502" },
+      { icon: <Github size={24} className="text-blue-400" />, text: "Nathanael0502" },
       { icon: <MapPin size={24} className="text-blue-400" />, text: "Fianarantsoa, Madagascar" },
     ].map((item, index) => (
       <motion.div
