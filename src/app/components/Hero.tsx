@@ -28,7 +28,7 @@ const Hero = () => {
       Je suis un développeur Full-Stack passionné par la création d’expériences web conviviales et esthétiques. Ce portfolio présente mes compétences et mes projets.
       </p>
       <Link
-        href="/cv/nathanaelCV.pdf"
+        href="/cv/cvNathaPro.pdf"
         className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
         target="_blank"
       >
