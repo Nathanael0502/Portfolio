@@ -26,7 +26,7 @@ const skills = [
   
     // Outils
     { name: "Git", logo: "/skills/Git.svg" },
-    { name: "GitHub", logo: "/skills/Github.svg" },
+    { name: "GitHub", logo: "/skills/GitHub.svg" },
     { name: "Postman", logo: "/skills/Postman.svg" },
 
     //Base de données
