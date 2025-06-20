@@ -28,7 +28,7 @@ const Hero = () => {
       Je suis un développeur Full-Stack passionné par la création d’expériences web conviviales et esthétiques. Ce portfolio présente mes compétences et mes projets.
       </p>
       <Link
-        href="/cv/truePortFolioCV.pdf"
+        href="/cv/CV_Nathanaël_Randrianjafy.pdf"
         className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
         target="_blank"
       >
@@ -50,7 +50,7 @@ const Hero = () => {
   viewport={{ once: false, amount: 0.3 }}
   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
   whileHover={{ scale: 1.1, boxShadow: '0 0 20px 5px #3b82f6' }}
-  className="rounded-full mt-5 md:mt-0 md:ml-[100px] border-4 border-blue-500 shadow-lg overflow-hidden w-[400px] h-[400px]"
+  className="rounded-full max-w-[400px] max-h-[400px] mt-5 md:mt-0 md:ml-[100px] border-4 border-blue-500 shadow-lg overflow-hidden "
  
 >
   <Image
