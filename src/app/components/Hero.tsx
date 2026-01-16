@@ -54,7 +54,7 @@ const Hero = () => {
  
 >
   <Image
-    src="/image/nathaImage.png"
+    src="/image/imagenathan.jpg"
     alt="Developer Image"
     width={400}
     height={400}
