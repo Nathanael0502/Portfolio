@@ -115,24 +115,27 @@ const Hero = () => {
             transition={{ delay: 1.1 }}
             className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
           >
-            <Link
-              href="/cv/CV_Nathanaël_Randrianjafy.pdf"
-              target="_blank"
-              className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-[1px]"
-            >
-              <span className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-70 blur-xl transition-all duration-500 group-hover:opacity-100" />
+ <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+  {/* Bouton CV */}
+  <Link
+    href="/cv/natha_cv_M1.pdf"
+    target="_blank"
+    className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-[1px] w-full sm:w-fit"
+  >
+    <span className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-70 blur-xl transition-all duration-500 group-hover:opacity-100" />
+    <span className="relative z-10 block w-full sm:w-auto text-center px-8 py-3 rounded-[15px] bg-[#0a0a0a] text-white font-medium transition-all duration-300 group-hover:bg-[#111] whitespace-nowrap">
+      Télécharger mon CV
+    </span>
+  </Link>
 
-              <span className="relative px-8 py-3 rounded-2xl bg-[#0a0a0a] text-white font-medium transition-all duration-300 group-hover:bg-[#111]">
-                Télécharger mon CV
-              </span>
-            </Link>
-
-            <Link
-              href="#projects"
-              className="px-8 py-3 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl text-white hover:bg-white/10 transition-all duration-300"
-            >
-              Voir mes projets
-            </Link>
+  {/* Bouton Projets */}
+  <Link
+    href="#projects"
+    className="w-full sm:w-fit text-center px-8 py-3 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl text-white hover:bg-white/10 transition-all duration-300 grid place-items-center"
+  >
+    Voir mes projets
+  </Link>
+</div>
           </motion.div>
         </motion.div>
 

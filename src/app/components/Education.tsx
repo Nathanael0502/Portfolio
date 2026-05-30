@@ -6,7 +6,7 @@ const education = [
   {
     degree: "Master en Science de données et intelligence artificielle (en cours)",
     school: "Emit Fianarantsoa",
-    period: "2025 - 2027",
+    period: "2025 - En cours",
   },
   {
     degree: "Licence en Développement Logiciel",
