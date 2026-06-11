@@ -64,4 +64,20 @@ export const projects = [
       "https://github.com/Nathanael0502/fraud-detection-banking",
     category: "Artificial Intelligence",
   },
+  {
+  title: "E-Commerce CLV Prediction",
+  description:
+    "Projet de Data Science complet sur 500K transactions e-commerce : segmentation RFM, prédiction du churn et forecasting du Customer Lifetime Value (CLV) sur 12 mois par client.",
+  image: "/image/clv_predicted_vs_actual.png",
+  technologies: [
+    "Python",
+    "Scikit-Learn",
+    "Machine Learning",
+    "Pandas",
+    "Plotly",
+  ],
+  github:
+    "https://github.com/Nathanael0502/E-Commerce-CLV-Prediction",
+  category: "Artificial Intelligence",
+},
 ];
