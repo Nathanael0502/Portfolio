@@ -194,18 +194,21 @@ const Hero = () => {
             <div className="absolute top-1/2 -right-4 w-4 h-4 bg-purple-500 rounded-full blur-md animate-ping" />
 
             {/* IMAGE */}
-            <div className="relative w-[80%] h-[80%] rounded-full overflow-hidden border border-white/10 shadow-[0_0_80px_rgba(168,85,247,0.15)] transition-all duration-500 group-hover:border-purple-500/40">
-              <Image
-                src="/image/photocv.jpg"
-                alt="Nathanaël Randrianjafy"
-                fill
-                priority
-                className="object-cover"
-              />
+        <div className="relative w-[80%] h-[80%] rounded-full overflow-hidden border border-white/10 shadow-[0_0_80px_rgba(168,85,247,0.15)] transition-all duration-500 group-hover:border-purple-500/40 [mask-image:radial-gradient(circle,white_100%,transparent_100%)]">
+  <Image
+    src="/image/photocv.jpg"
+    alt="Nathanaël Randrianjafy"
+    fill
+    priority
+    className="object-cover object-[center_20%] scale-110 transition-transform duration-500 group-hover:scale-115"
+  />
 
-              {/* OVERLAY */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 via-transparent to-purple-500/10" />
-            </div>
+  {/* OVERLAY DÉGRADÉ POUR ADOUCIR LE FOND BLANC */}
+  <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0c] via-transparent to-black/20 pointer-events-none mix-blend-multiply" />
+  
+  {/* TEINTE VIOLETTE EN BORDURE */}
+  <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 via-transparent to-purple-500/10 pointer-events-none" />
+</div>
 
             {/* FLOATING CARD */}
             <motion.div
