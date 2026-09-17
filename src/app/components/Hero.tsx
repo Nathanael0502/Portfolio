@@ -196,7 +196,7 @@ const Hero = () => {
             {/* IMAGE */}
             <div className="relative w-[80%] h-[80%] rounded-full overflow-hidden border border-white/10 shadow-[0_0_80px_rgba(168,85,247,0.15)] transition-all duration-500 group-hover:border-purple-500/40">
               <Image
-                src="/image/imagenathan.jpg"
+                src="/image/photocv.jpg"
                 alt="Nathanaël Randrianjafy"
                 fill
                 priority
