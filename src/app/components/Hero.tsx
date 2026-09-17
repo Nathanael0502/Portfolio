@@ -118,7 +118,7 @@ const Hero = () => {
  <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
   {/* Bouton CV */}
   <Link
-    href="/cv/natha_cv_M1.pdf"
+    href="/cv/cv_Nathanael_Randrianjafy.pdf"
     target="_blank"
     className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-[1px] w-full sm:w-fit"
   >
